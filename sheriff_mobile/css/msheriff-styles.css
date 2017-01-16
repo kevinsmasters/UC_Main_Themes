@@ -1,0 +1,969 @@
+@import "normalize.css";
+@import "layouts/responsive.css";
+@import "components/misc.css";
+@import "print.css";
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+/* HTML element (SMACSS base) rules */
+/* Layout rules */
+/* Component (SMACSS module) rules */
+/* Optionally, add your own components here. */
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+#header {
+  width: 100%;
+  position: fixed;
+  height: auto!important;
+}
+#main {
+  padding-top: 115px;
+}
+#header.navOut + #main {
+  padding-top: 0!important;
+}
+#header.navOut {
+  position: relative;
+}
+.clearMe {
+  display: block;
+  clear: both;
+  height: 0;
+  content: "";
+}
+#page {
+  width: 100%;
+  max-width: 100%;
+}
+.header__region {
+  position: static;
+}
+#menuOpen {
+  display: block;
+  height: 26px;
+  width: 39px;
+  background: url(../images/mobile-open.png);
+  position: absolute;
+  top: 57px;
+  right: 20px;
+  z-index: 50;
+  background-position: 0 -30px;
+}
+#menuOpen.open {
+  background-position: 0 0;
+}
+#block-menu-menu-sheriff-main-menu {
+  position: absolute;
+  top: 115px;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+#block-menu-menu-sheriff-main-menu ul.menu {
+  margin: 0;
+  padding: 0;
+  background: rgba(51, 51, 51, 0.96);
+  position: relative;
+  overflow: hidden;
+}
+#block-menu-menu-sheriff-main-menu ul.menu li {
+  list-style-type: none;
+  text-align: center;
+  list-style-imaage: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 15px 0;
+}
+#block-menu-menu-sheriff-main-menu ul.menu li a {
+  color: #fff;
+}
+#block-menu-menu-sheriff-main-menu ul.menu ul {
+  position: absolute;
+  top: 0;
+  background: #555;
+  width: 100%;
+  left: 100%;
+  -webkit-transition: left 1s ease;
+  transition: left 1s ease;
+}
+#block-menu-menu-sheriff-main-menu ul.menu ul li {
+  list-style-image: none;
+  list-style-type: none;
+}
+#block-menu-menu-sheriff-main-menu ul.menu ul li.expDad {
+  background: #000;
+}
+#block-menu-menu-sheriff-main-menu ul.menu ul li.expDad span {
+  float: left;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: -20px;
+  display: inline-block;
+}
+#block-menu-menu-sheriff-main-menu ul.menu ul.opened {
+  left: 0;
+}
+#logo {
+  margin: 41px 0 11px 48px;
+}
+#logo .header__logo-image {
+  width: 65px;
+  height: auto;
+}
+.header__region #block-block-62 {
+  top: 56px;
+  left: 129px;
+}
+.header__region #block-block-62 p#header1 {
+  font-size: 18px;
+}
+.header__region #block-block-62 p#header2 {
+  font-size: 20px;
+}
+.header__region #block-block-62 p#header3 {
+  display: none;
+}
+#block-views-department-home-dl-block-3 {
+  position: static;
+  margin-top: 0;
+}
+.page-node-42210 #main {
+  padding-top: 108px;
+}
+.page-node-42210 article.node-page {
+  width: 100%;
+  padding: 0;
+}
+.page-node-42210 article.node-page .field-name-body {
+  padding: 40px;
+}
+.page-node-42210 article.node-page img {
+  display: none;
+}
+.page-node-42210 article.node-page h2 {
+  font-size: 23px;
+  line-height: 41px;
+}
+.page-node-42210 article.node-page h2 br {
+  display: none;
+}
+.page-node-42210 article.node-page p {
+  font-size: 15px;
+  line-height: 21px;
+  margin: 20px 0;
+}
+#block-block-74 {
+  background: #cc9933;
+  margin: 0;
+  padding: 19px 0;
+}
+#block-block-74 p {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  letter-spacing: .09em;
+}
+#block-block-65 h3 {
+  display: none;
+}
+#block-block-65 ul li a {
+  font-size: 14px;
+  padding-top: 94px;
+  padding-bottom: 32px;
+}
+#block-block-65 ul li a br {
+  display: block;
+}
+#block-block-65 ul li#callCriminal {
+  width: 33%;
+  background: none;
+}
+#block-block-65 ul li#callCriminal a {
+  background: #3b3b3b url(../images/bottom-criminal.png) no-repeat center 31px;
+  background-size: 48px 47px;
+}
+#block-block-65 ul li#callJail {
+  width: 34%;
+  background: none;
+}
+#block-block-65 ul li#callJail a {
+  background: #4d4d4d url(../images/bottom-corrections.png) no-repeat center 31px;
+  background-size: 31px 47px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 16px;
+}
+#block-block-65 ul li#callCivil {
+  width: 33%;
+  background: none;
+}
+#block-block-65 ul li#callCivil a {
+  background: #3b3b3b url(../images/bottom-civil.png) no-repeat center 31px;
+  background-size: 45px 47px;
+  padding-bottom: 16px;
+}
+.infoBox {
+  float: none;
+  width: 70%;
+  padding: 15px;
+  margin-left: 0;
+}
+#block-block-75 {
+  margin-bottom: 0;
+}
+#block-block-75 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#block-block-75 ul li {
+  float: left;
+}
+#block-block-75 ul li:hover {
+  opacity: .8;
+}
+#block-block-75 ul li a {
+  display: block;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  padding-top: 94px;
+  padding-bottom: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#block-block-75 ul li#callCriminal {
+  width: 33%;
+  background: none;
+}
+#block-block-75 ul li#callCriminal a {
+  background: #cccccc url(../images/bottom-criminal.png) no-repeat center 31px;
+  background-size: 48px 47px;
+}
+#block-block-75 ul li#callJail {
+  width: 34%;
+  background: none;
+}
+#block-block-75 ul li#callJail a {
+  background: #bfbfbf url(../images/bottom-corrections.png) no-repeat center 31px;
+  background-size: 31px 47px;
+  padding-bottom: 18px;
+}
+#block-block-75 ul li#callCivil {
+  width: 33%;
+  background: none;
+}
+#block-block-75 ul li#callCivil a {
+  background: #cccccc url(../images/bottom-civil.png) no-repeat center 31px;
+  background-size: 45px 47px;
+  padding-bottom: 18px;
+}
+#block-block-77 {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 20px 0;
+}
+#block-block-77 p {
+  margin: 0;
+}
+.page-node-42210 #homeAlert h3 {
+  background: #4d4d4d;
+  color: #fff;
+  font-size: 19px;
+  line-height: 52px;
+  height: 52px;
+  padding-left: 0;
+  font-weight: normal;
+  text-align: center;
+}
+.page-node-42210 #homeAlert h3 span {
+  background: url(../images/signup-header.png) no-repeat left center;
+  background-size: 25px 27px;
+  padding-left: 39px;
+  display: inline-block;
+}
+.page-node-42210 #homeAlert input#signMob,
+.page-node-42210 #homeAlert input#signEmail,
+.page-node-42210 #homeAlert input#signZip {
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.page-node-42210 #homeAlert input#signEmail {
+  margin-left: 0;
+}
+.page-node-42210 #homeAlert input#signZip {
+  width: 33%;
+}
+.page-node-42210 #homeAlert input[type=submit] {
+  font-size: 15px;
+  height: 33px;
+  line-height: 33px;
+}
+#homeAlert form {
+  display: none;
+}
+#footer {
+  padding: 0;
+}
+#block-block-76 {
+  background: #d8deea;
+  margin-bottom: 0;
+}
+#block-block-76 .fbHome {
+  width: 22%;
+  float: right;
+}
+#block-block-76 .fbHome img {
+  display: block;
+}
+#block-block-76 h2 {
+  margin: 0;
+  padding: 29px 0 0 60px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+#block-block-76 h2 span {
+  display: block;
+  font-size: 20px;
+  text-transform: none;
+}
+#block-block-76 h2 a {
+  color: #3b5998;
+}
+#block-block-76 h2 a span.ext {
+  display: none;
+}
+#block-block-76:after {
+  display: block;
+  clear: both;
+  height: 0;
+  content: "";
+}
+#content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#footer #block-block-72 {
+  background: #333;
+  margin-bottom: 0;
+}
+#footer #block-block-72 p {
+  padding: 33px 0;
+  font-size: 16px;
+}
+#footer #block-block-72 a {
+  color: #cc9933;
+}
+.page-sheriff-active-warrants .view-active-warrants.view-display-id-page,
+.page-sheriff-active-warrants .view-display-id-block_1 {
+  display: none;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block {
+  position: relative;
+  margin-bottom: 0;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .view-header {
+  display: block;
+  position: absolute;
+  top: -11px;
+  right: 24px;
+  font-size: 14px;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .view-header p {
+  margin: 0;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .view-header a {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+  background: #606060;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .block-title {
+  font-size: 24px;
+  line-height: normal;
+  margin-left: 22px;
+  margin-top: 32px;
+  margin-bottom: 26px;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row {
+  width: 50%;
+  overflow: hidden;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row img {
+  width: 100%;
+  height: auto;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row .views-field-field-pdf {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row .views-field-field-pdf .field-content {
+  width: 80%;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row .views-field-field-pdf h3 {
+  margin-top: 0;
+  font-size: 23px;
+  font-weight: normal;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row .views-field-field-pdf h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row .views-field-field-pdf p {
+  font-size: 14px;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .views-row:hover .views-field-field-pdf {
+  display: block;
+}
+.page-sheriff-active-warrants #block-views-active-warrants-block .view-footer {
+  width: auto;
+  clear: both;
+  padding-bottom: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.page-sheriff-active-warrants #main {
+  padding-top: 115px;
+}
+.page-sheriff-active-warrants #content {
+  margin: 0;
+  padding: 0;
+}
+.page-sheriff-active-warrants #page-title {
+  display: none;
+}
+.page-sheriff-active-warrants .view-display-id-block_1 {
+  margin-top: 18px;
+}
+.view-display-id-block_1 .view-header h1 {
+  margin: 0;
+  font-size: 17px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  color: #cc9933;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+.view-id-active_warrants.view-display-id-page .view-content th.views-field,
+.view-display-id-block_1 .view-content th.views-field {
+  width: auto!important;
+}
+.stickem-container {
+  position: relative;
+}
+.stickit {
+  margin-left: 660px;
+  position: fixed;
+  top: 0;
+}
+.stickit-end {
+  bottom: 40px;
+  position: absolute;
+  right: 0;
+}
+.page-sheriff-active-warrants .nohiding .view-display-id-block_1 {
+  display: block!important;
+}
+.nohiding #block-views-active-warrants-block .block-title {
+  display: none;
+}
+#page-title {
+  color: #cc9933;
+  font-weight: normal;
+  font-size: 21px;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  margin-bottom: 20px;
+  padding-left: 37px;
+  padding-top: 20px;
+}
+article.node-page {
+  padding: 0 37px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  #block-block-65 ul li#callJail a {
+    padding-bottom: 32px;
+  }
+}
+/* iphone 6 plus horiz */
+/* iphone 5 horiz */
+@media only screen and (max-width: 600px) {
+  #main {
+    padding-top: 108px;
+  }
+  #logo {
+    margin-left: 44px;
+    margin-top: 34px;
+  }
+  .header__region #block-block-62 {
+    top: 43px;
+    left: 129px;
+  }
+  .header__region #block-block-62 p#header1 {
+    font-size: 15px;
+  }
+  .header__region #block-block-62 p#header2 {
+    font-size: 17px;
+  }
+  #block-menu-menu-sheriff-main-menu {
+    top: 108px;
+  }
+  #block-menu-menu-sheriff-main-menu ul.menu li {
+    font-size: 14px;
+  }
+  #block-block-65 ul li a,
+  #block-block-75 ul li a {
+    font-size: 12px;
+    padding-bottom: 31px;
+  }
+  #block-block-65 ul li#callCriminal a,
+  #block-block-75 ul li#callCriminal a {
+    background-size: 40px 39px;
+  }
+  #block-block-65 ul li#callJail a,
+  #block-block-75 ul li#callJail a {
+    background-size: 26px 39px;
+  }
+  #block-block-65 ul li#callCivil a,
+  #block-block-75 ul li#callCivil a {
+    background-size: 38px 39px;
+  }
+  #block-block-76 h2 {
+    font-size: 20px;
+    padding: 26px 0 0 52px;
+  }
+  #block-block-76 h2 span {
+    font-size: 16px;
+  }
+  .page-sheriff-active-warrants #main {
+    padding-top: 108px;
+  }
+  #footer #block-block-72 p {
+    font-size: 13px;
+  }
+}
+/* iphone 5 horz */
+@media only screen and (max-width: 600px) {
+  #block-block-65 ul li a,
+  #block-block-75 ul li a {
+    padding-bottom: 32px;
+  }
+}
+/* iphone 4 horiz */
+@media only screen and (max-width: 480px) {
+  #logo {
+    margin: 21px 0 5px 27px;
+  }
+  #main {
+    padding-top: 61px;
+  }
+  #page-title {
+    font-size: 18px;
+  }
+  .page-sheriff-active-warrants #main {
+    padding-top: 61px;
+  }
+  .page-node-42210 #main {
+    padding-top: 61px;
+  }
+  #logo .header__logo-image {
+    width: 36px;
+    height: auto;
+  }
+  .header__region #block-block-62 {
+    top: 21px;
+    left: 81px;
+  }
+  .header__region #block-block-62 p#header1 {
+    font-size: 10px;
+  }
+  .header__region #block-block-62 p#header2 {
+    font-size: 11px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .block-title {
+    font-size: 17px;
+    margin-top: 21px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-header {
+    font-size: 10px;
+    top: -7px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-header a {
+    padding: 10px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .views-row .views-field-field-pdf h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .views-row .views-field-field-pdf p {
+    font-size: 10px;
+    margin: 0;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-footer {
+    padding-bottom: 2em;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-footer h2 {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-footer p {
+    font-size: 11px;
+    line-height: normal;
+  }
+  .page-node-42210 article.node-page h2 {
+    font-size: 17px;
+    line-height: 29px;
+  }
+  .page-node-42210 article.node-page p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .page-node-42210 #homeAlert h3 {
+    font-size: 13px;
+    line-height: 35px;
+    height: 35px;
+  }
+  .page-node-42210 #homeAlert h3 span {
+    background-size: 17px 19px;
+  }
+  #block-block-76 h2 {
+    font-size: 17px;
+    line-height: 16px;
+    padding: 23px 0 0 40px;
+  }
+  #block-block-76 h2 span {
+    font-size: 14px;
+  }
+  #block-menu-menu-sheriff-main-menu {
+    top: 61px;
+  }
+  #block-menu-menu-sheriff-main-menu li {
+    font-size: 10px;
+    padding: 10px 0;
+  }
+  #menuOpen {
+    height: 17px;
+    width: 25px;
+    top: 30px;
+    right: 24px;
+    background-size: 25px 35px;
+    background-position: 0 -18px;
+  }
+  #menuOpen.opened {
+    background-position: 0 0;
+  }
+  #block-block-74 {
+    padding: 14px 0;
+  }
+  #block-block-74 p {
+    font-size: 11px;
+  }
+  #block-block-75 ul li a,
+  #block-block-65 ul li a {
+    font-size: 10px;
+    padding-top: 67px;
+    padding-bottom: 28px;
+  }
+  #block-block-75 ul li#callCriminal,
+  #block-block-65 ul li#callCriminal {
+    background: none;
+  }
+  #block-block-75 ul li#callCriminal a,
+  #block-block-65 ul li#callCriminal a {
+    background-size: 34px 33px;
+  }
+  #block-block-75 ul li#callJail,
+  #block-block-65 ul li#callJail {
+    background: none;
+  }
+  #block-block-75 ul li#callJail a,
+  #block-block-65 ul li#callJail a {
+    background-size: 22px 35px;
+    padding-bottom: 12px;
+  }
+  #block-block-75 ul li#callCivil,
+  #block-block-65 ul li#callCivil {
+    background: none;
+  }
+  #block-block-75 ul li#callCivil a,
+  #block-block-65 ul li#callCivil a {
+    background-size: 32px 33px;
+    padding-bottom: 12px;
+  }
+  #footer #block-block-72 p {
+    font-size: 11px;
+    padding: 22px 0;
+  }
+}
+.view-id-active_warrants.view-display-id-page .view-filters,
+.view-display-id-block_1 .view-filters {
+  width: 286px;
+}
+/* iphone 6plus vertical */
+@media only screen and (max-width: 414px) {
+  #block-block-76 h2 {
+    font-size: 14px;
+  }
+  #block-block-76 h2 span {
+    font-size: 12px;
+  }
+  #block-block-75 ul li a,
+  #block-block-65 ul li a {
+    padding-bottom: 28px;
+  }
+  .view-display-id-block_1 .view-content th.views-field,
+  .view-id-active_warrants.view-display-id-page .view-content th.views-field {
+    font-size: 11px;
+  }
+  .view-display-id-block_1 .view-content,
+  .view-id-active_warrants.view-display-id-page .view-content {
+    font-size: 10px;
+  }
+}
+/* iphone 6 reg vertical */
+@media only screen and (max-width: 375px) {
+  #logo {
+    margin: 21px 0 5px 27px;
+  }
+  #logo .header__logo-image {
+    width: 36px;
+    height: auto;
+  }
+  #block-menu-menu-sheriff-main-menu {
+    top: 61px;
+  }
+  #block-menu-menu-sheriff-main-menu li {
+    font-size: 10px;
+    padding: 10px 0;
+  }
+  #menuOpen {
+    height: 17px;
+    width: 25px;
+    top: 30px;
+    right: 24px;
+    background-size: 25px 35px;
+    background-position: 0 -18px;
+  }
+  #menuOpen.opened {
+    background-position: 0 0;
+  }
+  .header__region #block-block-62 {
+    top: 21px;
+    left: 81px;
+  }
+  .header__region #block-block-62 p#header1 {
+    font-size: 10px;
+  }
+  .header__region #block-block-62 p#header2 {
+    font-size: 11px;
+  }
+  #block-views-department-home-dl-block-3 ul li {
+    max-width: 375px;
+    height: auto;
+  }
+  #block-block-76 h2 {
+    padding-top: 20px;
+    padding-left: 35px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #block-block-76 h2 span {
+    font-size: 12px;
+  }
+  #footer #block-block-72 p {
+    font-size: 9px;
+    padding: 18px 0;
+  }
+  #block-block-74 {
+    font-size: 10px;
+    padding: 10px 0;
+  }
+  .page-node-42210 article.node-page .field-name-body {
+    padding: 20px;
+  }
+  .page-node-42210 article.node-page img {
+    display: none;
+  }
+  .page-node-42210 article.node-page h2 {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .page-node-42210 article.node-page p {
+    font-size: 10px;
+    line-height: 13px;
+    margin: 10px 0;
+  }
+  #block-block-72 {
+    padding: 10px 0;
+  }
+  #block-block-72 p {
+    font-size: 8px;
+    letter-spacing: .09em;
+  }
+  #block-block-65 ul li a {
+    font-size: 8px;
+    padding-top: 51px;
+    padding-bottom: 21px;
+  }
+  #block-block-65 ul li#callCriminal {
+    background: none;
+  }
+  #block-block-65 ul li#callCriminal a {
+    background: #3b3b3b url(../images/bottom-criminal.png) no-repeat center 15px;
+    background-size: 26px 25px;
+  }
+  #block-block-65 ul li#callJail {
+    background: none;
+  }
+  #block-block-65 ul li#callJail a {
+    background: #4d4d4d url(../images/bottom-corrections.png) no-repeat center 15px;
+    background-size: 17px 25px;
+    padding-bottom: 5px;
+  }
+  #block-block-65 ul li#callCivil {
+    background: none;
+  }
+  #block-block-65 ul li#callCivil a {
+    background: #3b3b3b url(../images/bottom-civil.png) no-repeat center 15px;
+    background-size: 25px 26px;
+    padding-bottom: 5px;
+  }
+  .page-node-42210 #homeAlert h3 {
+    font-size: 12px;
+    line-height: 29px;
+    height: 29px;
+    padding-left: 0;
+    font-weight: normal;
+    text-align: center;
+  }
+  .page-node-42210 #homeAlert h3 span {
+    background: url(../images/signup-header.png) no-repeat left center;
+    background-size: 14px 15px;
+    padding-left: 26px;
+    display: inline-block;
+  }
+  .page-node-42210 #homeAlert input#signMob,
+  .page-node-42210 #homeAlert input#signEmail,
+  .page-node-42210 #homeAlert input#signZip {
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 7px;
+  }
+  .page-node-42210 #homeAlert input#signEmail {
+    margin-left: 0;
+  }
+  .page-node-42210 #homeAlert input#signZip {
+    width: 25%;
+  }
+  .page-node-42210 #homeAlert input[type=submit] {
+    font-size: 10px;
+    height: 25px;
+    line-height: 25px;
+  }
+  .page-node-42210 #homeAlert input#signAccept + label {
+    font-size: 10px;
+    line-height: normal;
+    width: 61%;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-footer h2 {
+    font-size: 12px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-footer p {
+    font-size: 10px;
+  }
+  #block-block-75 ul li#callCivil a,
+  #block-block-65 ul li#callCivil a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .view-display-id-block_1 .view-content th.views-field,
+  .view-id-active_warrants.view-display-id-page .view-content th.views-field {
+    font-size: 10px;
+  }
+  .view-display-id-block_1 .view-content,
+  .view-id-active_warrants.view-display-id-page .view-content {
+    font-size: 9px;
+  }
+}
+/* ??? refactor ???? */
+@media only screen and (max-width: 375px) {
+  #logo {
+    margin-left: 8px;
+  }
+  .header__region #block-block-62 {
+    top: 24px;
+    left: 56px;
+  }
+  #menuOpen {
+    right: 12px;
+  }
+  #block-block-65 ul li#callCriminal a {
+    background-size: 23px 22px;
+  }
+  #block-block-65 ul li#callJail a {
+    background-size: 15px 22px;
+  }
+  #block-block-65 ul li#callCivil a {
+    background-size: 21px 22px;
+  }
+  #block-block-76 h2 {
+    padding-top: 13px;
+    padding-left: 21px;
+  }
+}
+/* vertical for iphone 5 and 4 */
+@media only screen and (max-width: 320px) {
+  #main {
+    padding-top: 61px;
+  }
+  #block-block-76 h2 {
+    font-size: 11px;
+  }
+  #block-block-76 h2 span {
+    font-size: 9px;
+  }
+  .page-node-42210 #homeAlert input#signAccept + label {
+    width: 58%;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .block-title {
+    font-size: 13px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-header {
+    right: 14px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-header a {
+    padding: 8px;
+  }
+  .page-sheriff-active-warrants #block-views-active-warrants-block .view-footer {
+    position: static;
+    width: auto;
+    padding: 0 10px 10px;
+  }
+  .view-display-id-block_1 .view-content td,
+  .view-id-active_warrants.view-display-id-page .view-content td {
+    padding: 0;
+  }
+  #block-block-75 ul li a,
+  #block-block-65 ul li a {
+    font-size: 9px;
+  }
+}

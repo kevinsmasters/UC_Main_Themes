@@ -1,0 +1,793 @@
+@teal-blue: #1c75bc;
+@hot-orange: #f15a29;
+@orange: #f27829;
+@lt-orange: #fccfad;
+#inner {
+#content {
+    color: #000;
+    #ufbfootright a {
+    color: #fff;
+}
+    .pageHeader {
+        color: @teal-blue;
+        font-size: 33px;
+        text-align: center;
+        margin: 0 0 10px;
+        padding-top: 23px;
+        line-height: normal;
+    }
+    .cap {
+        font-size: 13px;
+    }
+    .techIntro {
+        font-size: 18px;
+    }
+    a.downloadButton {
+        background: @orange;
+        display: inline-block;
+        margin: 35px auto 30px;
+        width: 168px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 8px 0;
+    }
+    .techPull {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        color: @teal-blue;
+        span {
+            
+            color: @orange;
+        }
+    }
+   .bigHalf {
+       //padding: 30px 0;
+       // width: 410px;
+        //margin-left: 50px;
+        //float: left;
+        text-align: center;
+        h1 {
+            font-family: 'PT Sans';
+            font-weight: bold;
+            color: @teal-blue;
+            font-size: 33px;
+            line-height: 34px;
+            margin: 18px 0 30px;
+        }
+        h2 {
+            font-family: 'PT Sans';
+            font-size: 18px;
+            line-height: 23px;
+            margin: 0;
+        }
+       h4 {
+           font-family: 'PT Sans';
+           color: @hot-orange;
+           font-size: 20px;
+           line-height: 25px;
+           margin-top: 0;
+           font-weight: bold;
+       }
+       
+       &.workremote {
+           h1 {
+               font-size: 35px;
+               margin-bottom: 15px;
+               text-transform: uppercase;
+           }
+           h2 {
+               font-size: 20px;
+                font-weight: bold;
+                color: @teal-blue;
+               margin-bottom: 7px;
+           }
+           img {
+               display:block;
+           }
+       }
+       &.nolm {
+           margin-left: 0;
+           //width: 456px;
+       }
+    } 
+    .remoteWifi {
+        p{
+            a{
+              color:@orange;  
+            }
+            
+            font-weight: bold;
+        }
+    }
+    .photoBox {
+        position: relative;
+        a { text-decoration: none;}
+        h3 {
+            font-family: 'PT Sans';
+            font-weight: bold;
+            color: @teal-blue;
+            font-size: 20px;
+            line-height: 26px;
+            margin: 0 0 5px;            
+        }
+        h3 + p {
+            margin-bottom: 0;
+        }
+        img {
+            position: relative;
+            z-index: 10;
+            display: block;
+        }
+        span.overlaytext {
+            position: absolute;
+            top: 242px;
+            display: block;
+            width: 100%;
+            color: #fff;
+            font-size: 35px;
+            font-weight: bold;
+            font-family: 'PT Sans';
+            z-index: 12;
+            text-shadow: 2px 2px 2px #3c3c3c;
+        }
+        span.orCaption {
+            color: #fff;
+            background: @orange;
+            font-size: 14px;
+            line-height: 15px;
+            padding: 10px 12px;
+            font-weight: bold;
+            display:block;
+            a {
+                color: #fff;
+            }
+        }
+        span.orCaption.tech {
+            text-align: left;
+        }
+    }
+    .blueBox {
+       background: @teal-blue;
+        color: #fff;
+       
+        margin-top: 5px;
+        h3 {
+            font-size: 35px;
+            line-height: 57px;
+            font-weight: bold;
+            border-bottom: 5px solid @orange;
+        }
+        ul {
+            text-align: left;
+            font-size: 18px;
+            line-height: 28px;
+             padding-bottom: 25px;
+        }
+        p{
+            padding:7px 0;
+            margin:0;
+            a {
+                color:#fff;
+            }
+        }
+    }
+    .mapwrap {
+        text-align: left;
+        font-family: 'PT Sans';
+        color: #000;
+        font-size: 15px;
+        strong {
+            font-size: 17px;
+            color: @teal-blue;
+        }
+    }
+    #snapshots {
+        clear: both;
+        padding-top: 5px;
+        text-align: center;
+        font-family: 'PT Sans';
+        p {
+            text-align: left; font-size: 14px;
+            margin: 5px;
+        }
+        h3 {
+            font-size: 28px;
+            line-height: 30px;
+            color: @teal-blue;
+            font-weight: bold;
+            font-family: 'PT Sans';
+            
+        }
+        ul {
+            padding: 0;
+            margin: 10px 0 0;
+            li {
+                list-style-type: none;
+                display: block;
+                padding-top: 1px;
+                margin: 0 auto;
+                height: 204px;
+                width: 204px;
+                color: #fff;
+                background: @orange;
+                border-radius: 102px;
+                vertical-align: top;
+                margin-bottom: 20px;
+                h4 {
+                    margin-top: 44px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: normal;
+                    margin-bottom: 9px;
+                    font-family: 'PT Sans';
+                }
+                p {
+                    font-size: 14px;
+                    text-align: center;
+                    margin: 0;
+                }                
+            }
+            li + li {
+               // margin-left: 30px;
+            }
+            li:nth-child(2) {
+                h4 {
+                    margin-top: 67px;
+                }
+            }
+        }
+        ul + ul {
+            li {
+                h4 {
+                    margin-top: 60px;
+                }
+            }
+            li:nth-child(2) {
+                h4 {
+                    margin-top: 60px;
+                }
+            }
+        }
+    }
+    .quarterCol {
+       // width: 190px;
+        &.right {
+        //    float: right;
+           // margin-right: 50px;
+        }
+    }
+    .quarterCol.right + .quarterCol.right {
+     //   margin-right: 22px;
+    }
+    .techvisit {
+        //padding-top: 18px;
+    }
+    .techtestimonials {
+        //padding-top:45px;
+        text-align: center;
+        h3 {
+            font-family: 'PT Sans';
+            color: @teal-blue;
+            font-size: 20px;
+            margin: 0 0 6px;
+            font-weight: bold;
+        }
+        h3 + p {
+            font-size: 15px;
+        }
+        p {
+            font-size: 11px;
+        }
+    }
+    .visitBox {
+        padding: 8px 0 0;
+        background: @lt-orange;
+        p {
+            font-size: 14px;
+            line-height: 19px;
+            padding: 0 6px;
+            a { text-decoration: none; color: #000;}
+            u { color: #1161a3;}
+            span a {
+                text-decoration: underline;
+                color: #1161a3;
+            }
+            span.expired {
+                color: darkgray;
+                a {
+                    color: darkgray;
+                    text-decoration: none;
+                }
+            }
+        }
+        p.ticketLink {
+            background: @teal-blue;
+            padding: 9px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .bigThreeQ {
+       // width: 650px;
+       // float: left;
+       // margin-left: 50px;
+        text-align: center;
+        .quarterCol.right {
+            margin-right: 0;
+        }
+        .bigHalf {
+            margin-left: 0;
+            padding-top: 0;
+        }
+    }
+    .bigHalf + .bigThreeQ {
+        
+    }
+    #fauxForm {
+        margin-bottom :78px;
+    }
+    .fauxRow {
+        padding: 8px 0;
+        font-size: 15px;
+        .rowButton {
+            width: 25%;
+            float: left;
+            font-size: 12px;
+            input {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .rowDetail {
+            float: left;
+            text-align: left;
+            width: 75%;
+        }
+    }
+    .fauxRow.expired {
+        color: darkgray;
+        a {
+            color: darkgray;
+        }
+    }
+    .fauxRow:after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+    .fauxRow.odd {
+        background: @lt-orange;
+    }
+    .techCallout {
+      //  width: 410px;
+        padding: 13px 0;
+        border: 1px solid @orange;
+        text-align: center;
+      //  float: left;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 12px;
+            span {
+                font-size: 15px;
+            }
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 7px;
+        }
+    }
+    .localTech {
+        clear:both;
+      //  margin-left: 50px;
+        background-image: url(../images/getconnectedbg.jpg);
+        background-position: center 60px;
+        background-size: 330px auto;
+    }
+    .chamber {
+      //  float: right;
+      //  margin-right: 50px;
+        background-image: url(../images/ucchamberlogo.jpg);        
+        background-size: 319px auto;
+        background-position: center 210px;
+        padding-bottom: 0;
+        a {
+                display: block;
+    padding: 13px 0 167px;
+    color: #000;
+    text-decoration: none;
+        }
+        .h3 {
+                font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 33px;
+            display: block;
+            font-family: 'PT Sans';
+            color: #000;
+            text-decoration: none;
+        }
+        .p {
+                font-size: 19px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 7px;
+        }
+        &.workremote {
+            padding-bottom:0;
+            background-position: center 143px;
+            background-image: url(../images/ucchamberlogo2.jpg);        
+        background-size: 318px auto;
+            a {
+                padding-bottom: 78px;
+            }
+            .h3 {
+                font-size :18px;
+                margin-bottom:6px;
+            }
+        }
+    }
+    
+    .pinkSidebar {
+     //  width: 251px;
+     //   float: right;
+        margin-top: 20px;
+        padding-top: 10px;
+        background: @lt-orange;
+        h3 {
+            font-size: 20px;
+            color: @teal-blue;
+            font-weight: bold;
+            width: 192px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 16px;
+        }
+        p {
+            font-size: 11px;
+            width: 192px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    //form pages
+    .goback {
+       // width: 410px;
+        margin-left: 50px;
+        text-align: center;
+        padding-top:2px;
+    }
+    .formText {
+     //   width: 408px;
+        //float: right;
+       // margin-right: 50px;
+        text-align: center;
+        h2 {
+            font-size: 21px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    #formThanks {
+    //    width: 344px;
+        margin: 0 33px;
+        color: @teal-blue;
+    }
+    .webform-client-form {
+       // float: left;
+    //    width: 410px;
+    //    margin-left: 50px;
+        background: @lt-orange;
+       // position: relative;
+        padding-bottom: 40px;
+        width: 100%;
+        label {
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .form-item .description {
+            font-size: 11px;
+        }
+        input[type=text],
+        input[type=email] {
+    //        width: 337px;
+            font-size: 11px;
+        }
+        .webform-component {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .webform-component--intro-html {
+            font-size: 16px;
+            padding-top: 10px;
+            padding-right: 33px;
+            text-align: center;
+            p {
+                font-size: 14px;
+            }
+            label {
+                display: inline;
+                font-size: 18px;
+                padding-left: 4px;
+            }
+            .recRed {
+                font-size: 14px;
+                color: #f00;
+            }
+        }
+        .webform-component--first-name,
+        .webform-component--state {
+       //     width: 167px;
+       //     float: left;
+            input[type=text],
+            select {
+        //        width: 167px;
+                font-size: 11px;
+            }
+        }
+        .webform-component--last-name,
+        .webform-component--zip {
+            .webform-component--first-name;
+       //     margin-left: 8px;
+        }
+        .webform-component--address-line-1,
+        .webform-component--email {
+            clear: left;
+        }
+        .webform-component--what-best-describes-your-profession {
+            text-align: center;
+            label {
+                font-size: 15px;
+                font-weight: bold;
+            }
+            select {
+          //      width: 166px;
+                font-size: 11px;
+            }
+        }
+        .webform-component--would-you-like-to-be-contacted {
+            text-align: center;
+         //   width: 338px;
+            .form-radios {
+                padding-top: 10px;
+            }
+            label {
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .form-type-radio {
+                padding-right: 100px;
+            }
+            .form-type-radio + .form-type-radio {
+                padding-right: 104px;
+            }
+        }
+        .webform-component--telephone-number {
+            //width: 166px;
+            //float: right;
+           // margin-right: 10px;
+       //    margin-top: -50px;
+            input[type=text]{
+       //         width: 166px;
+            }
+        }
+        .form-actions {
+            clear: both;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .captcha {
+            clear: both;
+            border: none;
+            margin: 0;
+            padding: 0;
+            legend,
+            .fieldset-description {
+                display: none;
+            }
+            .g-recaptcha > div > div {
+                margin: 0 auto;
+            }
+        }
+        .webform-component--policy-link {
+            text-align: center;
+            font-size: 14px;
+            position: absolute;
+            //top: 869px;
+            bottom: -6px;
+            width: 410px;
+            margin-left: 0;
+        }
+        .form-actions {
+            //position: relative;
+            //top: -86px;
+        input[type=submit] {
+            background: @orange;
+            border: none;
+            border-radius: 0;
+            color: #fff;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: 'PT Sans';
+            font-weight: bold;
+            font-size: 15px;
+            padding: 7px 30px;
+            }
+        }
+    }
+}
+}
+.section-ulsterforbusiness iframe {
+    width: 100%;
+    height: auto;
+}
+#main #block-menu-menu-oed-micro li a {
+    font-weight: normal;
+    font-size: 13px;
+    padding: 11px 12px;
+}
+#main #block-menu-menu-oed-micro li.mid-1 a {
+    width: 106px;
+}
+#main #block-menu-menu-oed-micro li.mid-2 a {
+    width: 109px;
+}
+#main #block-menu-menu-oed-micro li.mid-3 a {
+    width: 62px;
+}
+#main #block-menu-menu-oed-micro li.mid-4 a {
+    width: 126px;
+    padding-bottom: 11px;
+}
+#main #block-menu-menu-oed-micro li.mid-5 a {
+    width: 88px;
+}
+#main #block-menu-menu-oed-micro li.mid-6 a {
+    width: 51px;
+}
+#main #block-menu-menu-oed-micro li.mid-7 a {
+    width: 64px;
+}
+#main #block-menu-menu-oed-micro li.mid-8 a {
+    width: 105px;
+}
+#block-block-57 p {
+    margin: 0;
+    padding-top: 11px;
+    padding-left: 7px;
+    padding-right: 6px;
+    padding-bottom: 7px;
+}
+#block-block-58 {
+    background: #273057;
+    color: #fff;
+    padding: 24px 47px 36px 56px;
+    margin-bottom: 0;
+}
+
+/* iphone 6 plus horiz */
+@media only screen 
+and (max-width : 736px) {
+    #inner #content .photoBox span.overlaytext {
+        top: 420px;
+    }
+    #inner #content .webform-client-form .webform-component--policy-link {
+        position: static;
+        width: auto;
+        margin: 0 auto;
+        clear:both;
+    }
+    
+    #inner #content .chamber.workremote {
+        background-position: center 181px;
+    }
+}
+.field-name-body {
+    max-width:815px;
+    margin: 0 auto;
+}
+#inner #content .photoBox span.overlaytext {
+    top: 481px;
+}
+#inner #content .webform-client-form input[type=text], #inner #content .webform-client-form input[type=email], #inner #content .webform-client-form .webform-component--state input[type=text], #inner #content .webform-client-form .webform-component--first-name select, #inner #content .webform-client-form .webform-component--state select {
+        width: 100%!important;
+    font-size: 14px;
+    }
+
+/* ipad vert */
+@media only screen 
+and (max-width : 768px) {
+    #inner #content .photoBox span.overlaytext {
+        top: 440px;
+        font-size: 35px;
+    }
+}
+
+/* iphone 6 horiz */
+@media only screen 
+and (max-width : 667px) {
+    #inner #content .webform-client-form input[type=text], #inner #content .webform-client-form input[type=email], #inner #content .webform-client-form .webform-component--state input[type=text], #inner #content .webform-client-form .webform-component--first-name select, #inner #content .webform-client-form .webform-component--state select {
+        width: 100%!important;
+    }
+    
+    #inner #content .photoBox span.overlaytext {
+        top: 388px;
+    }
+}
+
+/* iphone 5 horiz */
+@media only screen 
+and (max-width : 600px) {
+    #inner #content .photoBox span.overlaytext {
+        top: 317px;
+    }
+}
+
+/* iphone 5 horz */
+@media only screen 
+and (max-width : 600px) {
+    
+}
+
+/* iphone 4 horiz */
+
+@media only screen 
+and (max-width : 480px) {
+    #inner #content .photoBox span.overlaytext {
+        top: 266px;
+    }
+}
+
+/* iphone 6plus vertical */
+@media only screen 
+and (max-width : 414px) { 
+    #inner #content .photoBox span.overlaytext {
+        top:216px;
+    }
+}
+
+/* iphone 6 reg vertical */
+@media only screen 
+and (max-width : 375px) {
+    #inner #content .bigHalf h1 br,
+    #inner #content .bigHalf h2 br {
+        
+    }
+    #inner #content .photoBox span.overlaytext {
+        top: 205px;
+        font-size: 30px;
+    }
+    
+}
+
+/* vertical for iphone 5 and 4 */
+@media only screen 
+and (max-width : 320px) {
+    #inner #content .photoBox span.overlaytext {
+        top: 165px;
+        font-size: 26px;
+    }
+    #inner #content .localTech {
+        background-size: 260px auto;
+    }
+    #inner #content .chamber {
+        background-size: 254px auto;
+    }
+    #inner #content .chamber a {
+        padding-bottom: 111px;
+    }
+    #inner #content .chamber.workremote {
+        background-size: 226px auto;
+    }
+}

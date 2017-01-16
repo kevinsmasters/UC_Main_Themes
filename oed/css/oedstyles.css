@@ -1,0 +1,170 @@
+#main .breadcrumb { background: url(../images/main-bg.png); }
+#main {
+  background: none;
+}
+#mainWrap {
+  background: url(../images/OET-content-bg.png) -1px top;
+}
+.two-sidebars #content {
+  width: 398px;
+  margin-left: 232px;
+  padding: 0 27px 0 16px;
+  background: none;
+}
+.two-sidebars .region-sidebar-first,
+.section-economic-development.two-sidebars .region-sidebar-first {
+	width: 185px; padding-left: 20px; padding-right: 0; background: none;
+}
+#block-menu-menu-economic-development { width: 175px; margin-bottom: 31px;}
+.region-sidebar-first .block-menu ul { margin-top: 10px; }
+.region-sidebar-first .block-menu ul ul { margin-top: 5px; }
+.region-sidebar-first .block-menu ul li.expanded a.active-trail.active { font-size: 20px; line-height: 23px; }
+.region-sidebar-first .block-menu ul li.collapsed:first-child  { border-top: 1px solid #181818; }
+#mainWrap .sidebars .region-sidebar-first h2 { font-size: 15px; color:#58595b; font-family: 'PT Sans', sans-serif; }
+#mainWrap .sidebars .region-sidebar-second,
+#mainWrap .sidebars .region-sidebar-second .view-news-feed .views-field-body { color: #fff; }
+
+#mainWrap .sidebars .region-sidebar-second h2 { font-size: 20px; margin-bottom: 0; text-transform: none; line-height: normal; padding-top:3px; color:#f2c42f; font-family: 'PT Sans', sans-serif;}
+#mainWrap .sidebars .region-sidebar-second  h3 { color: #fff; font-size: 16px; margin-top: 0;}
+#block-block-46 { margin-bottom: 35px; }
+
+
+.section-uceda #content h4 { margin-bottom: 10px; }
+#mainWrap .director-oed { font-size: 12px; line-height: normal; }
+#mainWrap .director-oed span { font-size: 14px; font-weight: bold;}
+.ucoedDLBox {
+	
+	width: 450px;
+	margin-left: -23px;
+}
+#content .ucoedDLBox ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+.ucoedDLBox .views-row {	
+	position: relative;
+	width: 450px;
+	overflow: hidden;
+}
+.ucoedDLBox .views-field-field-dl-image img {
+	display: block;
+}
+.ucoedDL img {
+	display: block;
+}
+#mainWrap #content .ucoedDLBox p { font-size: 14px; margin: 0;}	
+.ucoedDL span {
+	font-size: 19px;
+					padding: 10px 24px;
+					background: url("../images/dl-bg-gray.png") repeat scroll 0 0 transparent;
+					position: absolute;
+					bottom: 0px;
+					left: 0;
+					display: block;
+					width: 100%;
+					font-family: 'Muli', sans-serif;
+}
+.ucoedDLBox .field-content span {
+	font-size: 19px;
+					padding: 10px 24px;
+					background: url("../images/dl-bg-gray.png") repeat scroll 0 0 transparent;
+					position: absolute;
+					bottom: 0px;
+					left: 0;
+					display: block;
+					width: 100%;
+					font-family: 'Muli', sans-serif;
+					width: 402px;
+					min-height: 31px;
+}
+.ucoedDLBox .views-field-field-dl-image {
+	height: 240px;
+	overlfow: hidden;
+}
+.ucoedDL a,
+.ucoedDLBox span a {
+	color: #fff;
+	text-decoration: none;
+	font-style: italic;
+	font-size: 16px;
+	float: right;
+	display: block;
+	width:200px;
+	text-align:right;
+}
+.ucoedDLBox span a:hover {
+				color:#0196dc;
+				text-decoration: underline;
+				}
+.ucoedDLBox .views-field-field-caption {
+				position: absolute;
+				bottom: 0px;
+				left: 0;
+				width: 100%;
+				color: #fff;
+				z-index: 6;
+				text-align: left;
+}
+#block-menu-menu-economic-development { margin-bottom: 6px; }
+#block-menu-menu-economic-development  ul { margin-bottom: 0; }
+#block-block-44  { margin-bottom: 0; }
+#block-views-news-feed-block-7,
+#block-views-news-feed-block-9,
+#block-views-news-feed-block-8 ,
+#block-views-news-feed-block-10{ border-top: none; border-bottom: 1px solid #c5c7cf; padding-top: 0; }
+#mainWrap .sidebars .region-sidebar-second #block-views-news-feed-block-7 h2 {  }
+#block-views-news-feed-block .views-field-view-node a { display: block; margin: 10px 0; text-indent: -1000em; background: url(../images/ex-news-read-more.png); height:36px; width: 104px; }
+
+#mainWrap .sidebars .region-sidebar-second #block-views-news-feed-block-7 a.moreEOD { display: block; margin: 10px 0; text-indent: -1000em; background: url(../images/news-read-more.png); height:36px; width: 104px; }
+
+#mainWrap .sidebars .region-sidebar-second  a.vmoreEOD { display: block; margin: 10px 0; text-indent: -1000em; background: url(../images/view-all.png); height:36px; width: 104px; }
+#mainWrap #block-views-news-feed-block-7 { line-height: 20px; }
+.view-display-id-block_7 .view-footer { text-align: left; margin-bottom: 10px;}
+.view-display-id-block_8  a.more-link { display: block; text-indent:-1000em; background: url(../images/view-all.png); height:36px; width: 104px; text-align: left; margin-top: 10px;}
+#block-block-43 h2 { text-indent: -1000em; background: url(../images/oed-on-facebook.png); height:84px; width: 239px; position:relative; z-index: 40;}
+#block-block-43 .fb-like-box { position: relative; top: -18px; z-index: 39; right: -1px; }
+
+.two-sidebars .region-sidebar-second {
+	width: 240px;
+	margin-left: 680px;
+}
+
+
+article .field-name-body ul { padding-left: 20px; }
+/* oed home side menu */
+#block-block-50 { margin-bottom: 0; }
+#block-block-50 ul { list-style-type: none; margin: 17px 0; padding: 0; font-size: 18px; line-height:42px;}
+#block-block-50 li { margin-bottom: 1px; position: relative; }
+#block-block-50 li a { display: block; background: #217cba; color: #fff; text-decoration: none; padding: 0 8px; width: 172px;}
+#block-block-50 ul ul { display: none; position: absolute; left: 187px; top: -17px; opacity: .9;}
+#block-block-50 ul > li:hover ul { display: block; }
+
+.block-menu + #block-menu-menu-oednavigation { display: none; }
+
+#mainWrap #block-views-news-feed-block  p { margin-top: 0; }
+#mainWrap #block-views-news-feed-block h2.field-content, #mainWrap .view-news-feed h2.field-content {
+font-size: 16px; line-height: 18px; padding-bottom: 10px;}
+#content h4 { font-size: 18px; font-weight: bold; }
+#content h5 { font-size: 15px; font-weight: bold; }
+.oed-directors-list { padding: 0; list-style-type: none; }
+
+.director {
+	background: none;
+	text-align: left;
+	margin: 0 0 0 15px!important;
+	width: 157px;
+	font-size: 13px;
+	line-height: normal;
+}
+.director img { height: 203px; border: none; }
+.director span {
+	background: none;
+	color: #2d2d2d;
+	padding: 0;
+	text-align: left;
+	margin: 0;
+	font-size: 14px;
+	
+	font-weight: bold;
+}

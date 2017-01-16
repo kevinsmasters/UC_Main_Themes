@@ -1,0 +1,905 @@
+.region-homedl {
+  height: 51px;
+  position: fixed;
+  top: 195px;
+  z-index: 499;
+}
+.logged-in .region-homedl {
+  top: 239px;
+}
+#mainWrap {
+  padding-top: 51px;
+}
+#mainWrap #content {
+  color: #231f20;
+}
+#mainWrap #content a.nobump[name]:before,
+#mainWrap #content a.nobump:before {
+  display: none!important;
+}
+#mainWrap #content a.pdf {
+  background: none!important;
+  padding-left: 0;
+}
+#mainWrap #content #pageHeading {
+  text-align: center;
+  padding-top: 13px;
+}
+#mainWrap #content #pageHeading h2 {
+  font-family: 'Droid Serif', serif;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+#mainWrap #content #pageHeading h1 {
+  font-family: 'Open Sans';
+  font-size: 51px;
+  line-height: 47px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+#mainWrap #content .bbordered {
+  padding-bottom: 14px;
+  background: url(../images/barbellrule.jpg) no-repeat bottom center;
+  background-size: 472px 14px;
+}
+#mainWrap #content .tbordered {
+  padding-top: 22px;
+  background: url(../images/barbellrule.jpg) no-repeat top center;
+  background-size: 472px 14px;
+}
+#mainWrap #content #whyUlster {
+  padding-top: 42px;
+}
+#mainWrap #content #whyUlster.tbordered {
+  background-position: center 20px;
+}
+#mainWrap #content #whyUlster ul {
+  list-style-type: none;
+}
+#mainWrap #content #whyUlster ul li {
+  margin-bottom: 10px;
+}
+#mainWrap #content .bigHalf h3 + .tips {
+  margin-top: 25px;
+}
+#mainWrap #content H3 + iframe {
+  margin-top: 5px;
+}
+#mainWrap #content .pageHeader {
+  color: #1c75bc;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 10px;
+  padding-top: 23px;
+}
+#mainWrap #content .bigHalf iframe + h4 {
+  font-size: 15px;
+}
+#mainWrap #content .cap {
+  font-size: 13px;
+}
+#mainWrap #content .techIntro {
+  font-size: 18px;
+}
+#mainWrap #content a.downloadButton {
+  background: #f27829 !important;
+  display: inline-block;
+  margin: 35px auto 30px;
+  width: 168px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 0;
+}
+#mainWrap #content .techPull {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: #1c75bc;
+}
+#mainWrap #content .techPull span {
+  color: #f27829;
+}
+#mainWrap #content .bigFull {
+  padding: 30px 50px;
+}
+#mainWrap #content .fullWidth {
+  clear: both;
+  text-align: center;
+}
+#mainWrap #content .fullWidth h2.h1 {
+  font-family: 'Open Sans';
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+#mainWrap #content .bigHalf {
+  padding: 22px 0 0;
+  width: 410px;
+  margin-left: 50px;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+#mainWrap #content .bigHalf p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 10px 0 15px;
+}
+#mainWrap #content .bigHalf p.homeintro {
+  font-size: 20px;
+  line-height: 30px;
+}
+#mainWrap #content .bigHalf p.homeintro a {
+  color: #231f20;
+  text-decoration: none;
+}
+#mainWrap #content .bigHalf p.homeintro a.showLink {
+  color: #1161a3;
+  text-decoration: underline;
+}
+#mainWrap #content .bigHalf h1 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #1c75bc;
+  font-size: 35px;
+  line-height: 34px;
+  margin: 18px 0 30px;
+}
+#mainWrap #content .bigHalf h2 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0;
+}
+#mainWrap #content .bigHalf h3 {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  line-height: 25px;
+  margin: 0 0 15px;
+  font-weight: bold;
+}
+#mainWrap #content .bigHalf h3 a {
+  text-decoration: none;
+  color: #231f20;
+}
+#mainWrap #content .bigHalf h3 a .ext {
+  display: none;
+}
+#mainWrap #content .bigHalf h4 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 0;
+  font-weight: bold;
+}
+#mainWrap #content .bigHalf h4 span {
+  font-family: 'Droid Serif', serif;
+  font-weight: normal;
+}
+#mainWrap #content .bigHalf h4.subCap + iframe {
+  margin-top: 15px;
+}
+#mainWrap #content .bigHalf .mapBox {
+  width: 180px;
+  float: right;
+  margin-left: 13px;
+}
+#mainWrap #content .bigHalf .mapBox p {
+  font-size: 12px;
+  font-family: 'Droid Serif', serif;
+  font-weight: normal;
+  line-height: 17px;
+}
+#mainWrap #content .bigHalf .mapBox + p,
+#mainWrap #content .bigHalf .mapBox + p + p {
+  font-size: 13px;
+  font-family: 'Droid Serif', serif;
+  font-weight: normal;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 0;
+}
+#mainWrap #content .bigHalf .mapBox + p strong,
+#mainWrap #content .bigHalf .mapBox + p + p strong {
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+#mainWrap #content .bigHalf.workremote {
+  padding-top: 7px;
+}
+#mainWrap #content .bigHalf.workremote h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#mainWrap #content .bigHalf.workremote h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c75bc;
+  margin-bottom: 7px;
+}
+#mainWrap #content .bigHalf.workremote img {
+  display: block;
+}
+#mainWrap #content .bigHalf.nolm {
+  margin-left: 0;
+  width: 456px;
+  padding-bottom: 18px;
+}
+#mainWrap #content .remoteWifi p {
+  font-weight: bold;
+}
+#mainWrap #content .remoteWifi p a {
+  color: #f27829;
+}
+#mainWrap #content .photoBox {
+  position: relative;
+}
+#mainWrap #content .photoBox a {
+  text-decoration: none;
+}
+#mainWrap #content .photoBox h3 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #1c75bc;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 5px;
+}
+#mainWrap #content .photoBox h3 + p {
+  margin-bottom: 0;
+}
+#mainWrap #content .photoBox img {
+  position: relative;
+  z-index: 10;
+  display: block;
+}
+#mainWrap #content .photoBox span.overlaytext {
+  position: absolute;
+  top: 242px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  z-index: 12;
+  text-shadow: 2px 2px 2px #969696;
+}
+#mainWrap #content .photoBox span.orCaption {
+  display: block;
+  color: #fff;
+  background: #f27829;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+#mainWrap #content .photoBox span.orCaption a {
+  color: #fff;
+}
+#mainWrap #content .photoBox span.orCaption.tech {
+  font-size: 13px;
+  text-align: left;
+}
+#mainWrap #content .blueBox {
+  background: #1c75bc;
+  color: #fff;
+  margin-top: 5px;
+}
+#mainWrap #content .blueBox h3 {
+  font-size: 35px;
+  line-height: 57px;
+  border-bottom: 5px solid #f27829;
+}
+#mainWrap #content .blueBox ul {
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+#mainWrap #content .blueBox p {
+  padding: 0;
+  margin: 0;
+}
+#mainWrap #content .blueBox p a {
+  color: #fff;
+  display: block;
+  padding: 7px 0 13px;
+  text-decoration: none;
+  line-height: normal;
+}
+#mainWrap #content .mapwrap {
+  text-align: left;
+  font-family: 'Open Sans';
+  color: #000;
+  font-size: 14px;
+}
+#mainWrap #content .mapwrap strong {
+  font-size: 16px;
+  color: #1c75bc;
+}
+#mainWrap #content #snapshots {
+  clear: both;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+#mainWrap #content #snapshots p {
+  font-size: 14px;
+  margin: 24px 0 18px;
+  font-family: 'Droid Serif', serif;
+}
+#mainWrap #content #snapshots h3 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  line-height: 35px;
+  margin: 10px 0;
+}
+#mainWrap #content #snapshots ul {
+  margin-top: 15px;
+  padding: 0;
+}
+#mainWrap #content #snapshots ul li {
+  list-style-type: none;
+  display: block;
+  margin-top: 10px;
+}
+#mainWrap #content #snapshots ul li h4 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  margin-bottom: 9px;
+  font-family: 'Open Sans';
+}
+#mainWrap #content #snapshots ul li p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0;
+  font-family: 'Droid Serif', serif;
+}
+#mainWrap #content #snapshots ul li + li {
+  padding-top: 14px;
+  background: url(../images/dot.jpg) no-repeat center top;
+  background-size: 12px 13px;
+}
+#mainWrap #content .quarterCol {
+  width: 190px;
+}
+#mainWrap #content .quarterCol.right {
+  float: right;
+  margin-right: 50px;
+}
+#mainWrap #content .quarterCol.right + .quarterCol.right {
+  margin-right: 22px;
+}
+#mainWrap #content .techvisit {
+  padding-top: 18px;
+}
+#mainWrap #content .techtestimonials {
+  padding-top: 48px;
+  text-align: center;
+}
+#mainWrap #content .techtestimonials h3 {
+  font-family: 'Open Sans';
+  color: #1c75bc;
+  font-size: 20px;
+  margin: 0 0 6px;
+  font-weight: bold;
+}
+#mainWrap #content .techtestimonials h3 + p {
+  font-size: 15px;
+}
+#mainWrap #content .techtestimonials p {
+  font-size: 11px;
+}
+#mainWrap #content .visitBox p {
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: normal;
+  font-family: 'Droid Serif', serif;
+}
+#mainWrap #content .visitBox p.connect {
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+#mainWrap #content .visitBox p strong {
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+#mainWrap #content .visitBox p span.expired {
+  color: darkgray;
+}
+#mainWrap #content .visitBox p span.expired a {
+  color: darkgray;
+  text-decoration: none;
+}
+#mainWrap #content .visitBox p.visitRow {
+  text-align: left;
+  border-top: 2px solid #6d6e71;
+  padding-top: 10px;
+  margin-top: 5px;
+  line-height: 22px;
+}
+#mainWrap #content .visitBox p.visitRow a {
+  color: #1c75bc;
+  text-decoration: underline;
+}
+#mainWrap #content .visitBox p.visitRow + .visitRow {
+  margin-top: 10px;
+}
+#mainWrap #content .visitBox p.ticketLink {
+  background: #1c75bc;
+  padding: 9px;
+  margin-bottom: 6px;
+}
+#mainWrap #content .visitBox p.ticketLink a {
+  color: #fff;
+  text-decoration: underline;
+}
+#mainWrap #content p.connect {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+}
+#mainWrap #content p.connect + ul {
+  list-style-type: none;
+  font-size: 16px;
+  font-family: 'Droid Serif', serif;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  text-align: center;
+}
+span.ext { display: none;}
+#mainWrap #content p.connect + ul span.ext {
+  display: none;
+}
+#mainWrap #content p.connect.remote,
+#mainWrap #content p.connect.remote + ul {
+  text-align: center;
+}
+#mainWrap #content p.nowLeft {
+  text-align: center; /* no.. now center */
+  font-weight: normal;
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  line-height: 21px;
+}
+#mainWrap #content p.nowLeft strong {
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+#mainWrap #content p.tips {
+  font-size: 17px;
+  font-weight: normal;
+  font-family: 'Droid Serif', serif;
+  margin: 0;
+}
+#mainWrap #content p.help {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: 'Droid Serif', serif;
+  margin: 0;
+}
+#mainWrap #content p.help a.pdf {
+  padding: 0;
+  font-size: 15px;
+  line-height: 21px;
+}
+#mainWrap #content .bigThreeQ {
+  width: 650px;
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+}
+#mainWrap #content .bigThreeQ .quarterCol.right {
+  margin-right: 0;
+}
+#mainWrap #content .bigThreeQ .bigHalf {
+  margin-left: 0;
+  padding-top: 0;
+}
+#mainWrap #content .bigHalf.end + .bigHalf {
+  clear: left;
+}
+#mainWrap #content #fauxForm {
+  margin-bottom: 78px;
+}
+#mainWrap #content .fauxRow {
+  padding: 8px 0;
+  font-size: 15px;
+}
+#mainWrap #content .fauxRow .rowButton {
+  width: 93px;
+  float: left;
+  font-size: 12px;
+}
+#mainWrap #content .fauxRow .rowButton input {
+  display: block;
+  margin: 0 auto;
+}
+#mainWrap #content .fauxRow .rowDetail {
+  float: left;
+  text-align: left;
+  width: 550px;
+}
+#mainWrap #content .fauxRow.expired {
+  color: darkgray;
+}
+#mainWrap #content .fauxRow.expired a {
+  color: darkgray;
+}
+#mainWrap #content .fauxRow:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+#mainWrap #content .fauxRow.odd {
+  background: #fccfad;
+}
+#mainWrap #content .techCallout {
+  width: 410px;
+  padding: 13px 0;
+  border: 1px solid #f27829;
+  text-align: center;
+  float: left;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+#mainWrap #content .techCallout h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 12px;
+  font-family: 'Open Sans';
+}
+#mainWrap #content .techCallout h3 span {
+  font-size: 15px;
+}
+#mainWrap #content .techCallout p {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+#mainWrap #content .localTech {
+  clear: both;
+  margin-left: 50px;
+  background-image: url(../images/getconnectedbg.jpg);
+  background-position: center 60px;
+  background-size: 330px auto;
+}
+#mainWrap #content .chamber {
+  float: right;
+  margin-right: 50px;
+  background-image: url(../images/ucchamberlogo.jpg);
+  background-size: 319px auto;
+  background-position: center 210px;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+}
+#mainWrap #content .chamber a {
+  display: block;
+  padding: 13px 0 167px;
+  color: #000;
+  text-decoration: none;
+}
+#mainWrap #content .chamber .h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 33px;
+  display: block;
+  font-family: 'Open Sans';
+  color: #000;
+  text-decoration: none;
+}
+#mainWrap #content .chamber .p {
+  font-size: 19px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 7px;
+}
+#mainWrap #content .chamber.workremote {
+  background-position: center 129px;
+  background-image: url(../images/ucchamberlogo2.jpg);
+  background-size: 318px auto;
+}
+#mainWrap #content .chamber.workremote a {
+  padding-bottom: 78px;
+}
+#mainWrap #content .chamber.workremote .h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+#mainWrap #content .pinkSidebar {
+  width: 251px;
+  float: right;
+  background: #fccfad;
+}
+#mainWrap #content .pinkSidebar h3 {
+  font-size: 20px;
+  color: #1c75bc;
+  font-weight: bold;
+  width: 192px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+#mainWrap #content .pinkSidebar p {
+  font-size: 11px;
+  width: 192px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mainWrap #content .goback {
+  width: 410px;
+  margin-left: 50px;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 14px;
+}
+#mainWrap #content .formText {
+  width: 408px;
+  float: right;
+  margin-right: 50px;
+  text-align: center;
+}
+#mainWrap #content .formText h2 {
+  font-size: 21px;
+  font-weight: bold;
+}
+#mainWrap #content .formText p {
+  font-size: 15px;
+}
+#mainWrap #content #formThanks {
+  width: 344px;
+  margin: 0 33px;
+  color: #1c75bc;
+}
+#mainWrap #content .webform-client-form {
+  float: left;
+  width: 410px;
+  margin-left: 50px;
+  background: #fccfad;
+  position: relative;
+  padding-bottom: 40px;
+}
+#mainWrap #content .webform-client-form label {
+  font-size: 11px;
+  font-weight: bold;
+}
+#mainWrap #content .webform-client-form .form-item .description {
+  font-size: 11px;
+}
+#mainWrap #content .webform-client-form input[type=text],
+#mainWrap #content .webform-client-form input[type=email] {
+  width: 337px;
+  font-size: 11px;
+}
+#mainWrap #content .webform-client-form .webform-component {
+  margin: 6px 0 6px 33px;
+}
+#mainWrap #content .webform-client-form .webform-component--intro-html {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-right: 33px;
+  text-align: center;
+}
+#mainWrap #content .webform-client-form .webform-component--intro-html p {
+  font-size: 14px;
+}
+#mainWrap #content .webform-client-form .webform-component--intro-html p em {
+  font-size: 12px;
+}
+#mainWrap #content .webform-client-form .webform-component--intro-html label {
+  display: inline;
+  font-size: 18px;
+  padding-left: 4px;
+}
+#mainWrap #content .webform-client-form .webform-component--intro-html .recRed {
+  font-size: 14px;
+  color: #f00;
+  float: left;
+  text-align: left;
+}
+#mainWrap #content .webform-client-form .webform-component--no-of-tickets {
+  float: right;
+  margin-right: 33px;
+  margin-top: 0;
+}
+#mainWrap #content .webform-client-form .webform-component--no-of-tickets label {
+  display: inline;
+}
+#mainWrap #content .webform-client-form .webform-component--no-of-tickets select {
+  font-size: 11px;
+}
+#mainWrap #content .webform-client-form .webform-component--first-name {
+  clear: both;
+}
+#mainWrap #content .webform-client-form .webform-component--first-name,
+#mainWrap #content .webform-client-form .webform-component--state {
+  width: 167px;
+  float: left;
+}
+#mainWrap #content .webform-client-form .webform-component--first-name input[type=text],
+#mainWrap #content .webform-client-form .webform-component--state input[type=text],
+#mainWrap #content .webform-client-form .webform-component--first-name select,
+#mainWrap #content .webform-client-form .webform-component--state select {
+  width: 167px;
+  font-size: 11px;
+}
+#mainWrap #content .webform-client-form .webform-component--last-name,
+#mainWrap #content .webform-client-form .webform-component--zip {
+  clear: both;
+  width: 167px;
+  float: left;
+  clear: none;
+  margin-left: 8px;
+}
+#mainWrap #content .webform-client-form .webform-component--last-name input[type=text],
+#mainWrap #content .webform-client-form .webform-component--zip input[type=text],
+#mainWrap #content .webform-client-form .webform-component--last-name select,
+#mainWrap #content .webform-client-form .webform-component--zip select {
+  width: 167px;
+  font-size: 11px;
+}
+#mainWrap #content .webform-client-form .webform-component--address-line-1,
+#mainWrap #content .webform-client-form .webform-component--email {
+  clear: left;
+}
+#mainWrap #content .webform-client-form .webform-component--what-best-describes-your-profession {
+  text-align: center;
+}
+#mainWrap #content .webform-client-form .webform-component--what-best-describes-your-profession label {
+  font-size: 15px;
+  font-weight: bold;
+}
+#mainWrap #content .webform-client-form .webform-component--what-best-describes-your-profession select {
+  width: 166px;
+  font-size: 11px;
+}
+#mainWrap #content .webform-client-form .webform-component--would-you-like-to-be-contacted {
+  text-align: center;
+  width: 338px;
+}
+#mainWrap #content .webform-client-form .webform-component--would-you-like-to-be-contacted .form-radios {
+  padding-top: 10px;
+}
+#mainWrap #content .webform-client-form .webform-component--would-you-like-to-be-contacted label {
+  font-size: 15px;
+  font-weight: bold;
+}
+#mainWrap #content .webform-client-form .webform-component--would-you-like-to-be-contacted .form-type-radio {
+  padding-right: 100px;
+}
+#mainWrap #content .webform-client-form .webform-component--would-you-like-to-be-contacted .form-type-radio + .form-type-radio {
+  padding-right: 104px;
+}
+#mainWrap #content .webform-client-form .webform-component--telephone-number {
+  width: 166px;
+  float: right;
+  margin-right: 33px;
+  margin-top: -50px;
+}
+#mainWrap #content .webform-client-form .webform-component--telephone-number input[type=text] {
+  width: 166px;
+}
+#mainWrap #content .webform-client-form .form-actions {
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+}
+#mainWrap #content .webform-client-form .captcha {
+  clear: both;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+#mainWrap #content .webform-client-form .captcha legend,
+#mainWrap #content .webform-client-form .captcha .fieldset-description {
+  display: none;
+}
+#mainWrap #content .webform-client-form .captcha .g-recaptcha > div > div,
+#mainWrap #content .webform-client-form .captcha .g-recaptcha > div {
+  margin: 0 auto;
+}
+#mainWrap #content .webform-client-form .webform-component--policy-link {
+  text-align: center;
+  position: absolute;
+  bottom: -6px;
+  width: 410px;
+  margin-left: 0;
+}
+#mainWrap #content .webform-client-form .webform-component--policy-link p {
+  font-size: 14px;
+}
+#mainWrap #content .webform-client-form .form-actions input[type=submit] {
+  background: #f27829;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px 30px;
+}
+.sgf .form-actions input,
+.sgf .form-item,
+.sgf .g-recaptcha,
+.sgf .recRed {
+  display: none!important;
+}
+.sgf .form-item.webform-component--intro-html {
+  display: block!important;
+}
+.red {
+  color: red;
+}
+#content #ufbfootright a {
+  color: #fff;
+}
+#main #block-menu-menu-oed-micro li a {
+  font-weight: normal;
+  font-size: 13px;
+  padding: 7px 8px;
+}
+#main #block-menu-menu-oed-micro li a.active {
+  background-color: #273057;
+}
+#main #block-menu-menu-oed-micro li.mid-1 a {
+  background: #1e2a50 url(../images/home_bc.jpg) no-repeat center;
+  background-size: 32px auto;
+  display: block;
+  height: 50px;
+  padding: 0;
+  text-indent: -9999px;
+  width: 50px;
+  float: left;
+}
+#main #block-menu-menu-oed-micro li.mid-2 a {
+  width: 106px;
+}
+#main #block-menu-menu-oed-micro li.mid-3 a {
+  width: 112px;
+}
+#main #block-menu-menu-oed-micro li.mid-4 a {
+  width: 65px;
+  padding-bottom: 7px;
+}
+#main #block-menu-menu-oed-micro li.mid-5 a {
+  width: 128px;
+  padding-bottom: 7px;
+}
+#main #block-menu-menu-oed-micro li.mid-6 a {
+  width: 88px;
+}
+#main #block-menu-menu-oed-micro li.mid-7 a {
+  width: 51px;
+}
+#main #block-menu-menu-oed-micro li.mid-8 a {
+  width: 66px;
+}
+#main #block-menu-menu-oed-micro li.mid-9 a {
+  width: 105px;
+}
+#block-block-57 p {
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 3px;
+}

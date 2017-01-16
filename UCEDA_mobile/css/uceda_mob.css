@@ -1,0 +1,690 @@
+#inner #content {
+  color: #000;
+}
+#inner #content #ufbfootright a {
+  color: #fff;
+}
+#inner #content .pageHeader {
+  color: #1c75bc;
+  font-size: 33px;
+  text-align: center;
+  margin: 0 0 10px;
+  padding-top: 23px;
+  line-height: normal;
+}
+#inner #content .cap {
+  font-size: 13px;
+}
+#inner #content .techIntro {
+  font-size: 18px;
+}
+#inner #content a.downloadButton {
+  background: #f27829;
+  display: inline-block;
+  margin: 35px auto 30px;
+  width: 168px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 0;
+}
+#inner #content .techPull {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: #1c75bc;
+}
+#inner #content .techPull span {
+  color: #f27829;
+}
+#inner #content .bigHalf {
+  text-align: center;
+}
+#inner #content .bigHalf h1 {
+  font-family: 'PT Sans';
+  font-weight: bold;
+  color: #1c75bc;
+  font-size: 33px;
+  line-height: 34px;
+  margin: 18px 0 30px;
+}
+#inner #content .bigHalf h2 {
+  font-family: 'PT Sans';
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0;
+}
+#inner #content .bigHalf h4 {
+  font-family: 'PT Sans';
+  color: #f15a29;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 0;
+  font-weight: bold;
+}
+#inner #content .bigHalf.workremote h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#inner #content .bigHalf.workremote h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c75bc;
+  margin-bottom: 7px;
+}
+#inner #content .bigHalf.workremote img {
+  display: block;
+}
+#inner #content .bigHalf.nolm {
+  margin-left: 0;
+}
+#inner #content .remoteWifi p {
+  font-weight: bold;
+}
+#inner #content .remoteWifi p a {
+  color: #f27829;
+}
+#inner #content .photoBox {
+  position: relative;
+}
+#inner #content .photoBox a {
+  text-decoration: none;
+}
+#inner #content .photoBox h3 {
+  font-family: 'PT Sans';
+  font-weight: bold;
+  color: #1c75bc;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 5px;
+}
+#inner #content .photoBox h3 + p {
+  margin-bottom: 0;
+}
+#inner #content .photoBox img {
+  position: relative;
+  z-index: 10;
+  display: block;
+}
+#inner #content .photoBox span.overlaytext {
+  position: absolute;
+  top: 242px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'PT Sans';
+  z-index: 12;
+  text-shadow: 2px 2px 2px #3c3c3c;
+}
+#inner #content .photoBox span.orCaption {
+  color: #fff;
+  background: #f27829;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 10px 12px;
+  font-weight: bold;
+  display: block;
+}
+#inner #content .photoBox span.orCaption a {
+  color: #fff;
+}
+#inner #content .photoBox span.orCaption.tech {
+  text-align: left;
+}
+#inner #content .blueBox {
+  background: #1c75bc;
+  color: #fff;
+  margin-top: 5px;
+}
+#inner #content .blueBox h3 {
+  font-size: 35px;
+  line-height: 57px;
+  font-weight: bold;
+  border-bottom: 5px solid #f27829;
+}
+#inner #content .blueBox ul {
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+#inner #content .blueBox p {
+  padding: 7px 0;
+  margin: 0;
+}
+#inner #content .blueBox p a {
+  color: #fff;
+}
+#inner #content .mapwrap {
+  text-align: left;
+  font-family: 'PT Sans';
+  color: #000;
+  font-size: 15px;
+}
+#inner #content .mapwrap strong {
+  font-size: 17px;
+  color: #1c75bc;
+}
+#inner #content #snapshots {
+  clear: both;
+  padding-top: 5px;
+  text-align: center;
+  font-family: 'PT Sans';
+}
+#inner #content #snapshots p {
+  text-align: left;
+  font-size: 14px;
+  margin: 5px;
+}
+#inner #content #snapshots h3 {
+  font-size: 28px;
+  line-height: 30px;
+  color: #1c75bc;
+  font-weight: bold;
+  font-family: 'PT Sans';
+}
+#inner #content #snapshots ul {
+  padding: 0;
+  margin: 10px 0 0;
+}
+#inner #content #snapshots ul li {
+  list-style-type: none;
+  display: block;
+  padding-top: 1px;
+  margin: 0 auto;
+  height: 204px;
+  width: 204px;
+  color: #fff;
+  background: #f27829;
+  border-radius: 102px;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+#inner #content #snapshots ul li h4 {
+  margin-top: 44px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  margin-bottom: 9px;
+  font-family: 'PT Sans';
+}
+#inner #content #snapshots ul li p {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+#inner #content #snapshots ul li:nth-child(2) h4 {
+  margin-top: 67px;
+}
+#inner #content #snapshots ul + ul li h4 {
+  margin-top: 60px;
+}
+#inner #content #snapshots ul + ul li:nth-child(2) h4 {
+  margin-top: 60px;
+}
+#inner #content .techtestimonials {
+  text-align: center;
+}
+#inner #content .techtestimonials h3 {
+  font-family: 'PT Sans';
+  color: #1c75bc;
+  font-size: 20px;
+  margin: 0 0 6px;
+  font-weight: bold;
+}
+#inner #content .techtestimonials h3 + p {
+  font-size: 15px;
+}
+#inner #content .techtestimonials p {
+  font-size: 11px;
+}
+#inner #content .visitBox {
+  padding: 8px 0 0;
+  background: #fccfad;
+}
+#inner #content .visitBox p {
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0 6px;
+}
+#inner #content .visitBox p a {
+  text-decoration: none;
+  color: #000;
+}
+#inner #content .visitBox p u {
+  color: #1161a3;
+}
+#inner #content .visitBox p span a {
+  text-decoration: underline;
+  color: #1161a3;
+}
+#inner #content .visitBox p span.expired {
+  color: darkgray;
+}
+#inner #content .visitBox p span.expired a {
+  color: darkgray;
+  text-decoration: none;
+}
+#inner #content .visitBox p.ticketLink {
+  background: #1c75bc;
+  padding: 9px;
+}
+#inner #content .visitBox p.ticketLink a {
+  color: #fff;
+}
+#inner #content .bigThreeQ {
+  text-align: center;
+}
+#inner #content .bigThreeQ .quarterCol.right {
+  margin-right: 0;
+}
+#inner #content .bigThreeQ .bigHalf {
+  margin-left: 0;
+  padding-top: 0;
+}
+#inner #content #fauxForm {
+  margin-bottom: 78px;
+}
+#inner #content .fauxRow {
+  padding: 8px 0;
+  font-size: 15px;
+}
+#inner #content .fauxRow .rowButton {
+  width: 25%;
+  float: left;
+  font-size: 12px;
+}
+#inner #content .fauxRow .rowButton input {
+  display: block;
+  margin: 0 auto;
+}
+#inner #content .fauxRow .rowDetail {
+  float: left;
+  text-align: left;
+  width: 75%;
+}
+#inner #content .fauxRow.expired {
+  color: darkgray;
+}
+#inner #content .fauxRow.expired a {
+  color: darkgray;
+}
+#inner #content .fauxRow:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+#inner #content .fauxRow.odd {
+  background: #fccfad;
+}
+#inner #content .techCallout {
+  padding: 13px 0;
+  border: 1px solid #f27829;
+  text-align: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+#inner #content .techCallout h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 12px;
+}
+#inner #content .techCallout h3 span {
+  font-size: 15px;
+}
+#inner #content .techCallout p {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+#inner #content .localTech {
+  clear: both;
+  background-image: url(../images/getconnectedbg.jpg);
+  background-position: center 60px;
+  background-size: 330px auto;
+}
+#inner #content .chamber {
+  background-image: url(../images/ucchamberlogo.jpg);
+  background-size: 319px auto;
+  background-position: center 210px;
+  padding-bottom: 0;
+}
+#inner #content .chamber a {
+  display: block;
+  padding: 13px 0 167px;
+  color: #000;
+  text-decoration: none;
+}
+#inner #content .chamber .h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 33px;
+  display: block;
+  font-family: 'PT Sans';
+  color: #000;
+  text-decoration: none;
+}
+#inner #content .chamber .p {
+  font-size: 19px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 7px;
+}
+#inner #content .chamber.workremote {
+  padding-bottom: 0;
+  background-position: center 143px;
+  background-image: url(../images/ucchamberlogo2.jpg);
+  background-size: 318px auto;
+}
+#inner #content .chamber.workremote a {
+  padding-bottom: 78px;
+}
+#inner #content .chamber.workremote .h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+#inner #content .pinkSidebar {
+  margin-top: 20px;
+  padding-top: 10px;
+  background: #fccfad;
+}
+#inner #content .pinkSidebar h3 {
+  font-size: 20px;
+  color: #1c75bc;
+  font-weight: bold;
+  width: 192px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+#inner #content .pinkSidebar p {
+  font-size: 11px;
+  width: 192px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#inner #content .goback {
+  margin-left: 50px;
+  text-align: center;
+  padding-top: 2px;
+}
+#inner #content .formText {
+  text-align: center;
+}
+#inner #content .formText h2 {
+  font-size: 21px;
+  font-weight: bold;
+}
+#inner #content .formText p {
+  font-size: 15px;
+}
+#inner #content #formThanks {
+  margin: 0 33px;
+  color: #1c75bc;
+}
+#inner #content .webform-client-form {
+  background: #fccfad;
+  padding-bottom: 40px;
+  width: 100%;
+}
+#inner #content .webform-client-form label {
+  font-size: 11px;
+  font-weight: bold;
+}
+#inner #content .webform-client-form .form-item .description {
+  font-size: 11px;
+}
+#inner #content .webform-client-form input[type=text],
+#inner #content .webform-client-form input[type=email] {
+  font-size: 11px;
+}
+#inner #content .webform-client-form .webform-component {
+  width: 90%;
+  margin: 0 auto;
+}
+#inner #content .webform-client-form .webform-component--intro-html {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-right: 33px;
+  text-align: center;
+}
+#inner #content .webform-client-form .webform-component--intro-html p {
+  font-size: 14px;
+}
+#inner #content .webform-client-form .webform-component--intro-html label {
+  display: inline;
+  font-size: 18px;
+  padding-left: 4px;
+}
+#inner #content .webform-client-form .webform-component--intro-html .recRed {
+  font-size: 14px;
+  color: #f00;
+}
+#inner #content .webform-client-form .webform-component--first-name input[type=text],
+#inner #content .webform-client-form .webform-component--state input[type=text],
+#inner #content .webform-client-form .webform-component--first-name select,
+#inner #content .webform-client-form .webform-component--state select {
+  font-size: 11px;
+}
+#inner #content .webform-client-form .webform-component--last-name input[type=text],
+#inner #content .webform-client-form .webform-component--zip input[type=text],
+#inner #content .webform-client-form .webform-component--last-name select,
+#inner #content .webform-client-form .webform-component--zip select {
+  font-size: 11px;
+}
+#inner #content .webform-client-form .webform-component--address-line-1,
+#inner #content .webform-client-form .webform-component--email {
+  clear: left;
+}
+#inner #content .webform-client-form .webform-component--what-best-describes-your-profession {
+  text-align: center;
+}
+#inner #content .webform-client-form .webform-component--what-best-describes-your-profession label {
+  font-size: 15px;
+  font-weight: bold;
+}
+#inner #content .webform-client-form .webform-component--what-best-describes-your-profession select {
+  font-size: 11px;
+}
+#inner #content .webform-client-form .webform-component--would-you-like-to-be-contacted {
+  text-align: center;
+}
+#inner #content .webform-client-form .webform-component--would-you-like-to-be-contacted .form-radios {
+  padding-top: 10px;
+}
+#inner #content .webform-client-form .webform-component--would-you-like-to-be-contacted label {
+  font-size: 15px;
+  font-weight: bold;
+}
+#inner #content .webform-client-form .webform-component--would-you-like-to-be-contacted .form-type-radio {
+  padding-right: 100px;
+}
+#inner #content .webform-client-form .webform-component--would-you-like-to-be-contacted .form-type-radio + .form-type-radio {
+  padding-right: 104px;
+}
+#inner #content .webform-client-form .form-actions {
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+}
+#inner #content .webform-client-form .captcha {
+  clear: both;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+#inner #content .webform-client-form .captcha legend,
+#inner #content .webform-client-form .captcha .fieldset-description {
+  display: none;
+}
+#inner #content .webform-client-form .captcha .g-recaptcha > div > div {
+  margin: 0 auto;
+}
+#inner #content .webform-client-form .webform-component--policy-link {
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  bottom: -6px;
+  width: 410px;
+  margin-left: 0;
+}
+#inner #content .webform-client-form .form-actions input[type=submit] {
+  background: #f27829;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'PT Sans';
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px 30px;
+}
+.section-ulsterforbusiness iframe {
+  width: 100%;
+  height: auto;
+}
+#main #block-menu-menu-oed-micro li a {
+  font-weight: normal;
+  font-size: 13px;
+  padding: 11px 12px;
+}
+#main #block-menu-menu-oed-micro li.mid-1 a {
+  width: 106px;
+}
+#main #block-menu-menu-oed-micro li.mid-2 a {
+  width: 109px;
+}
+#main #block-menu-menu-oed-micro li.mid-3 a {
+  width: 62px;
+}
+#main #block-menu-menu-oed-micro li.mid-4 a {
+  width: 126px;
+  padding-bottom: 11px;
+}
+#main #block-menu-menu-oed-micro li.mid-5 a {
+  width: 88px;
+}
+#main #block-menu-menu-oed-micro li.mid-6 a {
+  width: 51px;
+}
+#main #block-menu-menu-oed-micro li.mid-7 a {
+  width: 64px;
+}
+#main #block-menu-menu-oed-micro li.mid-8 a {
+  width: 105px;
+}
+#block-block-57 p {
+  margin: 0;
+  padding-top: 11px;
+  padding-left: 7px;
+  padding-right: 6px;
+  padding-bottom: 7px;
+}
+#block-block-58 {
+  background: #273057;
+  color: #fff;
+  padding: 24px 47px 36px 56px;
+  margin-bottom: 0;
+}
+/* iphone 6 plus horiz */
+@media only screen and (max-width: 736px) {
+  #inner #content .photoBox span.overlaytext {
+    top: 420px;
+  }
+  #inner #content .webform-client-form .webform-component--policy-link {
+    position: static;
+    width: auto;
+    margin: 0 auto;
+    clear: both;
+  }
+  #inner #content .chamber.workremote {
+    background-position: center 181px;
+  }
+}
+.field-name-body {
+  max-width: 815px;
+  margin: 0 auto;
+}
+#inner #content .photoBox span.overlaytext {
+  top: 481px;
+}
+#inner #content .webform-client-form input[type=text],
+#inner #content .webform-client-form input[type=email],
+#inner #content .webform-client-form .webform-component--state input[type=text],
+#inner #content .webform-client-form .webform-component--first-name select,
+#inner #content .webform-client-form .webform-component--state select {
+  width: 100%!important;
+  font-size: 14px;
+}
+/* ipad vert */
+@media only screen and (max-width: 768px) {
+  #inner #content .photoBox span.overlaytext {
+    top: 440px;
+    font-size: 35px;
+  }
+}
+/* iphone 6 horiz */
+@media only screen and (max-width: 667px) {
+  #inner #content .webform-client-form input[type=text],
+  #inner #content .webform-client-form input[type=email],
+  #inner #content .webform-client-form .webform-component--state input[type=text],
+  #inner #content .webform-client-form .webform-component--first-name select,
+  #inner #content .webform-client-form .webform-component--state select {
+    width: 100%!important;
+  }
+  #inner #content .photoBox span.overlaytext {
+    top: 388px;
+  }
+}
+/* iphone 5 horiz */
+@media only screen and (max-width: 600px) {
+  #inner #content .photoBox span.overlaytext {
+    top: 317px;
+  }
+}
+/* iphone 5 horz */
+/* iphone 4 horiz */
+@media only screen and (max-width: 480px) {
+  #inner #content .photoBox span.overlaytext {
+    top: 266px;
+  }
+}
+/* iphone 6plus vertical */
+@media only screen and (max-width: 414px) {
+  #inner #content .photoBox span.overlaytext {
+    top: 216px;
+  }
+}
+/* iphone 6 reg vertical */
+@media only screen and (max-width: 375px) {
+  #inner #content .photoBox span.overlaytext {
+    top: 205px;
+    font-size: 30px;
+  }
+}
+/* vertical for iphone 5 and 4 */
+@media only screen and (max-width: 320px) {
+  #inner #content .photoBox span.overlaytext {
+    top: 165px;
+    font-size: 26px;
+  }
+  #inner #content .localTech {
+    background-size: 260px auto;
+  }
+  #inner #content .chamber {
+    background-size: 254px auto;
+  }
+  #inner #content .chamber a {
+    padding-bottom: 111px;
+  }
+  #inner #content .chamber.workremote {
+    background-size: 226px auto;
+  }
+}

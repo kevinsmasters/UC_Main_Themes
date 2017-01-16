@@ -1,0 +1,37 @@
+name        = Ulster County OED
+description = An Ulster County Theme
+
+
+
+; This theme is compatible with Drupal 7 core. And it is a sub-theme of Zen.
+
+core        = 7.x
+base theme  = ulster_county
+
+stylesheets[all][] = css/oedstyles.css
+
+
+regions[alert]			= Alert
+regions[header]         = Header
+regions[homeDL]         = Home DL
+regions[navigation]     = Navigation bar
+regions[slab]     		= Slabs
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Primary Left Sidebar
+regions[sidebar_second] = Right Column Home
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
