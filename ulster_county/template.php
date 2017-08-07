@@ -262,3 +262,9 @@ function ulster_county_menu_link($variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>';
 }
 
+function ulster_county_show_block($module, $block) {
+    $blockObject = block_load($module, $block);
+    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+    $output = drupal_render($block);
+    print $output;
+}
