@@ -126,108 +126,66 @@ echo "Posted: " . date( "F j, Y",$node->created);
 <h3><?php echo date('Y'); ?> Attendance</h3>
 
 <?php
-    $blockObject = block_load('views', '8698faf38514bd9e629149198e41a3a7');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', '8698faf38514bd9e629149198e41a3a7');
   ?>
    <a name="atabsent"></a>
   <?php
-    $blockObject = block_load('views', 'f3f8dc27d7f98e844ebaa71b9ce5f3ef');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'f3f8dc27d7f98e844ebaa71b9ce5f3ef');
   ?>
 </div>
     <div id="oldAttendance"><a name="oattop"></a><p class="atjumps"><em>jump to: </em>&nbsp;<a href="#oatabsent">absent</a></p>
 <h3>Attendance from previous terms</h3>
 
 <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_7');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	    ulster_county_show_block('views', 'legislature_meetings-block_7');
   ?>
    <a name="oatabsent"></a>
   <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_8');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	    ulster_county_show_block('views', 'legislature_meetings-block_8');
   ?>
 </div>
 <div id="votes"><a name="votop"></a><p class="atjumps"><em>jump to voted: </em>&nbsp;<a href="#voteno">no</a> | <a href="#voteabst">abstained</a> | <a href="#votenot">no vote</a></p>
 <h3><?php echo date('Y'); ?> Votes</h3>
 
 <?php
-    $blockObject = block_load('views', 'resolution_votes-block_1');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'resolution_votes-block_1');
   ?><a name="voteno"></a>
  <?php
-    $blockObject = block_load('views', 'resolution_votes-block_4');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'resolution_votes-block_4');
   ?><a name="voteabst"></a>
    <?php
-    $blockObject = block_load('views', 'resolution_votes-block_3');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'resolution_votes-block_3');
   ?><a name="votenot"></a>
   <?php
-    $blockObject = block_load('views', 'resolution_votes-block_2');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'resolution_votes-block_2');
   ?>  
 </div>
 <div id="sponsored">
 <h3><?php echo date('Y'); ?> Sponsored Legislation</h3>
  <?php
-    $blockObject = block_load('views', 'sponsored_legislation-block');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'sponsored_legislation-block');
   ?> 
 </div>
     <div id="oldSponsored">
 <h3>Sponsored legislation from previous terms</h3>
  <?php
-    $blockObject = block_load('views', 'sponsored_legislation-block_1');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	    ulster_county_show_block('views', 'sponsored_legislation-block_1');
   ?> 
 </div>
     <div id="oldVotes">
     <a name="pvotop"></a><p class="atjumps"><em>jump to voted: </em>&nbsp;<a href="#pvoteno">no</a> | <a href="#pvoteabst">abstained</a> | <a href="#pvotenot">no vote</a></p>
 <h3>Votes from previous terms</h3>
 <?php
-    $blockObject = block_load('views', 'a34afb9740b9fafa5d8bf17b5fec9f97');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	    ulster_county_show_block('views', 'a34afb9740b9fafa5d8bf17b5fec9f97');
   ?><a name="pvoteno"></a>
  <?php
-    $blockObject = block_load('views', 'a79312593aeb1001bb95a8ff88234ce7');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	    ulster_county_show_block('views', 'a79312593aeb1001bb95a8ff88234ce7');
   ?><a name="pvoteabst"></a>
    <?php
-    $blockObject = block_load('views', 'dc7c585292005f7fa4ae14e5eb41fce8');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	    ulster_county_show_block('views', 'dc7c585292005f7fa4ae14e5eb41fce8');
   ?><a name="pvotenot"></a>
   <?php
-    $blockObject = block_load('views', '90aa6b6de7060d516a55d0a9f504208b');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	    ulster_county_show_block('views', '90aa6b6de7060d516a55d0a9f504208b');
   ?>  
     </div>
 </div>
