@@ -43,10 +43,8 @@ echo "Posted: " . date( "F j, Y",$node->created);
 <div id="committeeMembers">
 <h3>Members</h3>
 <?php
-    $blockObject = block_load('views', 'legislative_members-block_4');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'legislative_members-block_4');
+    
   ?>
 </div>
 
@@ -61,17 +59,12 @@ echo "Posted: " . date( "F j, Y",$node->created);
 <h3>Meeting Attendance</h3>
 <span class="attendicon">attended</span> <span class="absenticon">absent</span>
 <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_2');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'legislature_meetings-block_2');
+   
   ?>
   <span id="result"></span>
 <?php
-    $blockObject = block_load('views', 'legislature_meetings-block');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'legislature_meetings-block');
   ?>
  </div> 
  <?php if ($title != 'Ulster County Legislature') : ?>
@@ -85,10 +78,7 @@ echo "Posted: " . date( "F j, Y",$node->created);
  <?php /*Show All Documents: <a href="#" class="currsess">Current Session</a> | <a href="#" class="prevsess">Previous Sessions</a>*/ ?>
  <h4>Current Session<a href="#" class="showfull">+</a><a href="#" class="hidefull">-</a></h4>
 <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_1');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'legislature_meetings-block_1');
   ?>
  </div>
  <!-- is <?php echo($myvalTrue); ?> -->
