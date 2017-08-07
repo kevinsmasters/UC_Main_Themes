@@ -61,16 +61,10 @@ echo format_date($node->changed, 'custom', 'F j, Y');
 <h3>Votes on this Resolution</h3>
 <span class="attendicon">yes</span> <span class="absenticon">no</span> <span class="excuseicon">abstained</span> <span class="novoteicon">no vote</span>
 <?php
-    $blockObject = block_load('views', 'resolution_votes-block');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'resolution_votes-block');
   ?><!-- for votes to original resolution -->
   <?php
-    $blockObject = block_load('views', 'resolution_votes-block_5');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	ulster_county_show_block('views', 'resolution_votes-block_5');
   ?>
 </div>
 </article><!-- /.node -->
