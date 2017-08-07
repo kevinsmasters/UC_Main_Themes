@@ -1,3 +1,4 @@
+//TODO: replace all of these block injections with Panels
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
     <header>
@@ -18,10 +19,10 @@ echo "Posted: " . date( "F j, Y",$node->created);
       <?php endif; ?>
 	  
 	  <?php 
-	  $myvalTrue = 'No';
+	  $archivedStatus = 'No';
     $archived = $node->field_archived;
     if (isset($archived['und'][0]['value'])) {
-        $myvalTrue = $node->field_archived['und'][0]['value'];
+        $archivedStatus = $node->field_archived['und'][0]['value'];
     }
 ?>
 	  
@@ -48,12 +49,8 @@ echo "Posted: " . date( "F j, Y",$node->created);
 <?php else : ?>
 <?php /*
 <h3>Members</h3>
-<?php
-    $blockObject = block_load('views', 'legislative_members-block_4');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
-  ?> */?>
+...
+*/?>
  <?php endif; ?> 
 </div>
 <?php if (!empty($content['field_parent_committee'])): ?>
@@ -66,37 +63,30 @@ echo "Posted: " . date( "F j, Y",$node->created);
 <h3>Meeting Attendance</h3>
 <span class="attendicon">attended</span> <span class="absenticon">absent</span>
     
-    <?php if ( $myvalTrue == 'Yes' ) {
-      
-    $blockObject = block_load('views', 'legislature_meetings-block_10');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+    <?php if ( $archivedStatus == 'Yes' ) {
+    
+	ulster_county_show_block('views', 'legislature_meetings-block_10');
+	
+    
       
   } else {
-      
-    $blockObject = block_load('views', 'legislature_meetings-block_2');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+     
+	ulster_county_show_block('views', 'legislature_meetings-block_2');  
       
   }
   ?>
   <span id="result"></span>
-<?php if ( $myvalTrue == 'Yes' ) {
-    $blockObject = block_load('views', 'legislature_meetings-block_9');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+<?php if ( $archivedStatus == 'Yes' ) {
+	
+	ulster_county_show_block('views', 'legislature_meetings-block_9');
+    
    } else {
-    $blockObject = block_load('views', 'legislature_meetings-block');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	
+	ulster_county_show_block('views', 'legislature_meetings-block');
   }
   ?>
  </div> 
- <?php if ( $myvalTrue != 'Yes' ) : ?>
+ <?php if ( $archivedStatus != 'Yes' ) : ?>
 <?php if ($title != 'Ulster County Legislature') : ?>
 <a href="/legislature/legislative-committee-contact?comemail=<?php print $title; ?>" class="contactLeg">Contact This Committee</a>
 <?php else : ?>
@@ -104,47 +94,38 @@ echo "Posted: " . date( "F j, Y",$node->created);
 <a href="/legislature/legislative-committee-contact?comemail=<?php print render($content['field_staff_email']); ?>" class="contactLeg">Contact the Legislature</a>
 <?php endif; ?>
 <?php endif; ?>
- <?php if ( $myvalTrue != 'Yes' ) : ?>
+ <?php if ( $archivedStatus != 'Yes' ) : ?>
 <div id="meetingDocuments">
 <h3>Meeting Documents</h3>
  Show All Documents: <a href="#" id="showCurr">Current Year</a> | <a href="#showPast" id="showPrev">Previous Years</a> 
 
  <div id="currYear">
  <h4>Current Year<a href="#" class="showfull">+</a><a href="#" class="hidefull">-</a></h4>
-<?php
-    $blockObject = block_load('views', 'legislature_meetings-block_1');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+<?php	
+	 
+	ulster_county_show_block('views', 'legislature_meetings-block_1');
   ?>
 </div>
  <div id="prevYear">
  <h4>Previous Year<a href="#" class="showfull2">+</a><a href="#" class="hidefull2">-</a></h4>
  
 <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_6');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	 ulster_county_show_block('views', 'legislature_meetings-block_6');
   ?>
 </div>
  <div style="display:none;">
  <div id="showCurrent">
  <h4>Current Session</h4>
 <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_5');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	 ulster_county_show_block('views', 'legislature_meetings-block_5');
+    
   ?>
  </div>
  <div id="showPast">
  <h4>Previous Sessions</h4>
 <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_4');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	 ulster_county_show_block('views', 'legislature_meetings-block_4');
+    
   ?>
  </div>
  </div>
@@ -152,17 +133,15 @@ echo "Posted: " . date( "F j, Y",$node->created);
 
 <?php endif; ?>
 
-<?php if ( $myvalTrue == 'Yes' ) : ?>
+<?php if ( $archivedStatus == 'Yes' ) : ?>
 <div id="meetingDocuments">
 <h3>Meeting Documents</h3>
 
  <div id="prevYear" style="display:block;">
  <h4>Previous Year<a href="#" class="showfull2">+</a><a href="#" class="hidefull2">-</a></h4>
  <?php
-    $blockObject = block_load('views', 'legislature_meetings-block_11');
-    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-    $output = drupal_render($block);
-    print $output;
+	 ulster_county_show_block('views', 'legislature_meetings-block_11');
+    
   ?> 
 
 </div>
@@ -170,7 +149,7 @@ echo "Posted: " . date( "F j, Y",$node->created);
 </div>
 <?php endif; ?>
 
-<?php if ( $myvalTrue != 'Yes' ) : ?>
+<?php if ( $archivedStatus != 'Yes' ) : ?>
 <div id="commcontactinfo">
   <?php if ($title != 'Ulster County Legislature') : ?>
   <h3>Committee Contact Information</h3>
@@ -241,14 +220,14 @@ $myvalDate = '';
 			
 			
 			jQuery('#meetingSel a').click(function() {
-				var merryBaggins = jQuery(this).parent().attr('class');
-                var merryBaggins = merryBaggins.replace(' thisTerm', '');
-				//console.log (merryBaggins);
+				var meetingParent = jQuery(this).parent().attr('class');
+                var meetingParent = meetingParent.replace(' thisTerm', '');
+				//console.log (meetingParent);
 				jQuery('#block-views-legislature-meetings-block .views-row').hide();
-				jQuery('#block-views-legislature-meetings-block .'+merryBaggins).show();
+				jQuery('#block-views-legislature-meetings-block .'+meetingParent).show();
                 
                 jQuery('#block-views-legislature-meetings-block-9 .views-row').hide();
-				jQuery('#block-views-legislature-meetings-block-9 .'+merryBaggins).show();
+				jQuery('#block-views-legislature-meetings-block-9 .'+meetingParent).show();
 			});
 
 			jQuery('#meetingSel li:first-child a').click();
